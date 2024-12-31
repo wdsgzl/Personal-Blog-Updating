@@ -1,5 +1,6 @@
 # Personal-Blog-Updating
 本项目使用了python3.9以及sqlite3库，请先安装相关库
+
 createtable.py为创建数据库表
 execute.py为插入预设数据以及查看数据库信息
 uploadfile中注释部分为文件类型大小等格式的控制，默认为无限制，如有需求可以取消注释。
