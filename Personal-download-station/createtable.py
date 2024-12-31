@@ -1,6 +1,5 @@
 import sqlite3
 conn = sqlite3.connect('Source.sqlite3')
-#conn = sqlite3.connect('.Menu.sqlite3')
 
 cur = conn.cursor()
 cur.execute("create table Manager(name text,password text)")
